@@ -15,3 +15,6 @@ puts "A blank board when the board array is empty"
 board = [" "," "," "," "," "," "," "," "," "]
 display_board(board)
 
+puts "A board with an X in the center position"
+board[4] = "X"
+display_board(board)
