@@ -39,3 +39,5 @@ puts "A board with O in the top left"
       puts "-----------"
       puts "  #{board[6]}| #{board[7]} |#{board[8]}  "
 end
+
+display_board
