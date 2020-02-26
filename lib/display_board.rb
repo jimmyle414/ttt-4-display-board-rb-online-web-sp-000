@@ -29,4 +29,5 @@ end
 
 display_board
 
+def display_board(board= ["O", " ", " ", " ", " ", " ", " ", " ", " "])
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
