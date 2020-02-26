@@ -4,7 +4,7 @@
 def display_board(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-puts "A"
+puts "A blank board when the board array is empty"
 
       puts "  #{board[0]}| #{board[1]} |#{board[2]}  "
       puts "-----------"
