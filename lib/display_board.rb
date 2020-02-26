@@ -12,19 +12,19 @@ end
 #def display_board(board= [" ", " ", " ", " ", "X", " ", " ", " ", " "])
  # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-puts "A blank board when the board array is empty"
+ #puts "A blank board when the board array is empty"
 
-      puts "  #{board[0]}| #{board[1]} |#{board[2]}  "
-      puts "-----------"
-      puts "  #{board[3]}| #{board[4]} |#{board[5]}  "
-      puts "-----------"
-      puts "  #{board[6]}| #{board[7]} |#{board[8]}  "
-end
+      #puts "  #{board[0]}| #{board[1]} |#{board[2]}  "
+      #puts "-----------"
+      #puts "  #{board[3]}| #{board[4]} |#{board[5]}  "
+      #puts "-----------"
+      #puts "  #{board[6]}| #{board[7]} |#{board[8]}  "
+#end
 
-display_board
+#display_board
 
-def display_board(board= [" ", " ", " ", " ", "X", " ", " ", " ", " "])
-  board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+#def display_board(board= [" ", " ", " ", " ", "X", " ", " ", " ", " "])
+  #board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 
 puts "A board with an X in the center position"
 
