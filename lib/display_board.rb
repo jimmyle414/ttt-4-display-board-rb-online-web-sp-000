@@ -1,7 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-def display_board(board)
+def display_board(board= [" ", " ", " ", " ", "X", " ", " ", " ", " "])
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "A blank board when the board array is empty"
@@ -15,7 +15,7 @@ end
 
 display_board(board)
 
-def display_board(board)
+def display_board(board= [" ", " ", " ", " ", "X", " ", " ", " ", " "])
   board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 
 puts "A board with an X in the center position"
