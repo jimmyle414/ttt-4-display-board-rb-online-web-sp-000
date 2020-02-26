@@ -13,7 +13,7 @@ puts "A blank board when the board array is empty"
       puts "  #{board[6]}| #{board[7]} |#{board[8]}  "
 end
 
-display_board(board)
+display_board
 
 def display_board(board= [" ", " ", " ", " ", "X", " ", " ", " ", " "])
   board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
@@ -27,4 +27,4 @@ puts "A board with an X in the center position"
       puts "  #{board[6]}| #{board[7]} |#{board[8]}  "
 end
 
-display_board(board)
+display_board
