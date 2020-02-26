@@ -11,3 +11,10 @@ def display_board(board)
       puts "  #{board[6]}| #{board[7]} |#{board[8]} "
 end
 
+puts "A blank board when the board array is empty"
+board = [" "," "," "," "," "," "," "," "," "]
+display_board(board)
+
+puts "A board with an X in the center position"
+board[4] = "X"
+display_board(board)
