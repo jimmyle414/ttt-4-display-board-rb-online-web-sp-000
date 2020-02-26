@@ -28,3 +28,5 @@ puts "A board with an X in the center position"
 end
 
 display_board
+
+board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
