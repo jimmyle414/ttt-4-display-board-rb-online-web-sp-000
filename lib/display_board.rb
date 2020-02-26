@@ -11,13 +11,3 @@ def display_board(board)
       puts " #{board[6]}| #{board[7]}  |#{board[8}"
 end
 
-ef display_board(board)
-  board = [" "," "," "," ","X"," "," "," ", " "]
-
-      puts "   |   |   "
-      puts "-----------"
-      puts "   | X |   "
-      puts "-----------"
-      puts "   |   |   "
-end
-
