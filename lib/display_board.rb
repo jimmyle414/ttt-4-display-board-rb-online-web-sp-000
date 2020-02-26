@@ -18,7 +18,7 @@ display_board
 def display_board(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
   board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 
-
+puts "A board with an X in the center position"
 
       puts "  #{board[0]}| #{board[1]} |#{board[2]}  "
       puts "-----------"
