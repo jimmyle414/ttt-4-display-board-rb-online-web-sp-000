@@ -14,3 +14,5 @@ end
 
 display_board
 
+board[4] = "X"
+display_board
